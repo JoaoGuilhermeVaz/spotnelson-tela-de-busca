@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotnelson</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>spotnelson</h1>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Início</a></li>
+                <li><a href="#">Buscar</a></li>
+                <li><a href="#">Sua Biblioteca</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <input type="text" id="searchInput" placeholder="Buscar...">
+
+        <div class="music-genres">
+            <div class="bubble" onclick="filterGenre('Funk')">
+                Funk
+                <img src="./img/mcdonjuan.jpg" alt="Funk" class="genre-icon">
+            </div>
+            <div class="bubble" onclick="filterGenre('Pagode')">
+                Pagode
+                <img src="img 2.jpg" alt="Pagode" class="genre-icon">
+            </div>
+            <div class="bubble" onclick="filterGenre('Sertanejo')">
+                Sertanejo
+                <img src="img3.jpg" alt="Sertanejo" class="genre-icon">
+            </div>
+            <div class="bubble" onclick="filterGenre('Rap')">
+                Rap
+                <img src="img4.jpg" alt="Rap" class="genre-icon">
+            </div>
+            <div class="bubble" onclick="filterGenre('Gaúcho')">
+                Gaúcho
+                <img src="garotos de ouro.jpg" alt="Gaúcho" class="genre-icon">
+            </div>
+            <div class="bubble" onclick="filterGenre('Reggae')">
+                Reggae
+                <img src="natirutz.jpg" alt="Reggae" class="genre-icon">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 spotnelson Clone</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
